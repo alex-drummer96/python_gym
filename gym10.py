@@ -1,0 +1,10 @@
+class ThreadData:
+
+    __shared_attrs = {
+        'name': 'thrad1',
+        'data': {},
+        'id': 1
+    }
+
+    def __init__(self):
+        self.__dict__ = self.__shared_attrs
